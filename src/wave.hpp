@@ -14,6 +14,9 @@ using std::vector;
  * Contains the pattern possibilities in every cell.
  * Also contains information about cell entropy (if shannon is true).
  */
+
+namespace wfc
+{
 class Wave {
    private:
     vector<double>& weights;
@@ -189,5 +192,5 @@ class Wave {
                counts.size() * sizeof(counts[0]);
     }
 };
-
+};
 #endif  // WFC_WAVE_HPP_

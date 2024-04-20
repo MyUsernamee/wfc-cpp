@@ -10,6 +10,10 @@
 #include "utils/helper.hpp"
 #include "wfc.hpp"
 
+
+
+namespace wfc {
+
 using std::array;
 using std::unordered_map;
 using std::vector;
@@ -219,12 +223,12 @@ class OverlappingWFC : public WFC {
         }
 
         if (sus) {
-            std::cerr << "get_output() called on contradicted wfc(overlap)"
-                      << std::endl;
+            
         }
 
         return out;
     };
+};
 };
 
 #endif  // WFC_WFC_HPP_

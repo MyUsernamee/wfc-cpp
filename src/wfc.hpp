@@ -32,6 +32,8 @@ static int sample(vector<double> weights, double r) {
 }
 }  // namespace
 
+namespace wfc {
+
 /**
  * Class containing the generic WFC algorithm.
  */
@@ -296,4 +298,5 @@ class WFC {
     }
 };
 
+};
 #endif  // WFC_WFC_HPP_
